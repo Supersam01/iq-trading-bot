@@ -3,21 +3,21 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Alex Rodriguez",
+    name: "Louis",
     role: "Full-time Trader",
-    content: "This bot completely changed my trading game. The signals are incredibly accurate, and the auto-execute feature means I never miss an opportunity. Made back my investment in the first week!",
+    content: "This bot completely changed my trading game. The signals are incredibly accurate, made back my investment in the first week!",
     rating: 5,
     avatar: "AR"
   },
   {
-    name: "Sarah Chen",
+    name: "Damilola",
     role: "Part-time Trader",
-    content: "As someone with a full-time job, this bot is perfect. I set it up once and let it trade while I work. The Telegram integration keeps me informed without being overwhelming.",
+    content: "As someone with a full-time job, this bot is perfect. I set it up and never had to stress over a signal, i request and execute.",
     rating: 5,
     avatar: "SC"
   },
   {
-    name: "Michael Torres",
+    name: "Psalm",
     role: "Crypto Enthusiast",
     content: "Been using trading bots for years, and this is by far the best for IQ Option. The win rate is consistently above 80%, and support team is super responsive.",
     rating: 5,
