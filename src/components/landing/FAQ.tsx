@@ -9,11 +9,11 @@ import {
 const faqs = [
   {
     question: "How does the trading bot work?",
-    answer: "Our bot uses advanced AI algorithms to analyze market patterns on IQ Option. It sends trading signals to your Telegram, and if you enable auto-execute, it will automatically place trades based on these signals. You maintain full control and can customize risk parameters."
+    answer: "Our bot uses advanced AI algorithms to analyze market patterns on IQ Option. It sends trading signals to your Telegram. You maintain full control and can customize risk parameters."
   },
   {
     question: "Is my IQ Option account safe?",
-    answer: "Absolutely. We use secure API connections and never store your login credentials. The bot only executes trades within the parameters you set, and you can revoke access at any time. All data is encrypted end-to-end."
+    answer: "Absolutely. We will never demand for your login credentials. The bot only analyze trades, and you can revoke access at any time. All data is encrypted end-to-end."
   },
   {
     question: "What is the average win rate?",
@@ -25,12 +25,8 @@ const faqs = [
   },
   {
     question: "How do I get started?",
-    answer: "Simply choose a plan, connect your Telegram account, and follow our setup guide to link your IQ Option account. The entire process takes less than 5 minutes, and our support team is available 24/7 to help."
+    answer: "Simply choose a plan, connect your Telegram account, and follow our setup guide to trade profitably. The entire process takes less than 5 minutes, and our support team is available 24/7 to help."
   },
-  {
-    question: "What if I'm not satisfied?",
-    answer: "We offer a 7-day money-back guarantee on all plans. If you're not completely satisfied with the bot's performance, contact our support team for a full refund, no questions asked."
-  }
 ];
 
 const FAQ = () => {
