@@ -9,13 +9,13 @@ const features = [
   },
   {
     icon: TrendingUp,
-    title: "Auto-Execute Trades",
-    description: "Set it and forget it. Our bot automatically executes trades on IQ Option based on signal parameters."
+    title: "Auto-Analyze Trades",
+    description: "Our bot automatically analyze trades on IQ Option based on signal parameters and chart memory."
   },
   {
     icon: Shield,
     title: "Risk Management",
-    description: "Built-in stop-loss and take-profit controls protect your capital with smart risk management tools."
+    description: "Protect your capital with smart risk management Strategy."
   },
   {
     icon: Clock,
