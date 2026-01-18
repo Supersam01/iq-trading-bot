@@ -41,19 +41,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Legal */}
-          <div>
-            <h4 className="font-display font-semibold mb-4">Legal</h4>
-            <ul className="space-y-3">
-              {["Privacy Policy", "Terms of Service", "Refund Policy", "Risk Disclosure"].map((link) => (
-                <li key={link}>
-                  <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                    {link}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         {/* Bottom */}
