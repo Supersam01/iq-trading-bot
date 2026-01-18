@@ -4,28 +4,26 @@ import { Check, Sparkles } from "lucide-react";
 
 const plans = [
   {
-    name: "Starter",
-    price: "$49",
+    name: "Free Trial",
+    price: "Free",
     period: "/month",
     description: "Perfect for beginners",
     features: [
-      "Up to 10 trades/day",
+      "Up to 20 free signals",
       "Basic signals",
       "Telegram notifications",
-      "Email support",
-      "1 trading pair"
+      "Telegram support"
     ],
     popular: false
   },
   {
-    name: "Pro",
-    price: "$99",
+    name: "Standard",
+    price: "$10",
     period: "/month",
     description: "Most popular choice",
     features: [
       "Unlimited trades",
-      "Premium signals",
-      "Auto-execute trades",
+      "Premium signals",,
       "Priority support",
       "All trading pairs",
       "Risk management tools",
@@ -33,22 +31,6 @@ const plans = [
     ],
     popular: true
   },
-  {
-    name: "Enterprise",
-    price: "$249",
-    period: "/month",
-    description: "For serious traders",
-    features: [
-      "Everything in Pro",
-      "Custom strategies",
-      "API access",
-      "Dedicated manager",
-      "VIP signals",
-      "Multi-account support",
-      "White-label options"
-    ],
-    popular: false
-  }
 ];
 
 const Pricing = () => {
