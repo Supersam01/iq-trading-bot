@@ -57,14 +57,28 @@ const Hero = () => {
             transition={{ delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button variant="gold" size="xl">
-              <Bot className="w-5 h-5" />
-              Start Trading Now
-            </Button>
-            <Button variant="goldOutline" size="xl">
-              View Live Results
-              <TrendingUp className="w-5 h-5" />
-            </Button>
+            <a
+  href="https://t.me/Iq_trading_signal_bot"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="gold" size="xl">
+    <Bot className="w-5 h-5" />
+    Start Trading Now
+  </Button>
+</a>
+
+            <a
+  href="https://t.me/Iq_trading_signal_bot"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="goldOutline" size="xl">
+    View Live Results
+    <TrendingUp className="w-5 h-5" />
+  </Button>
+</a>
+
           </motion.div>
 
           {/* Stats */}
@@ -76,7 +90,7 @@ const Hero = () => {
           >
             {[
               { value: "87%", label: "Win Rate" },
-              { value: "2,500+", label: "Active Traders" },
+              { value: "1,000+", label: "Active Traders" },
               { value: "$1.2M+", label: "Monthly Volume" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
