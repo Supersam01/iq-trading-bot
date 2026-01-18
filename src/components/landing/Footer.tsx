@@ -18,10 +18,13 @@ const Footer = () => {
               Automate your IQ Option trading with AI-powered signals delivered directly to Telegram. 
               Trade smarter, not harder.
             </p>
-            <Button variant="gold" size="lg">
-              <Send className="w-4 h-4" />
-              Join Telegram
-            </Button>
+            <a href="https://t.me/Iq_trading_signal_bot"target="_blank" rel="noopener noreferrer">
+  <Button variant="gold" size="lg">
+    <Send className="w-4 h-4" />
+    Join Telegram
+  </Button>
+</a>
+
           </div>
 
           {/* Quick Links */}
