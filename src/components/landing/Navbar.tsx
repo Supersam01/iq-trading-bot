@@ -54,12 +54,16 @@ const Navbar = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="ghost" size="sm">
-              Log In
-            </Button>
-            <Button variant="gold" size="sm">
-              Get Started
-            </Button>
+            <a
+  href="https://t.me/Iq_trading_signal_bot"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="gold" size="sm">
+    Get Started
+  </Button>
+</a>
+
           </div>
 
           {/* Mobile Menu Toggle */}
