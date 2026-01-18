@@ -25,7 +25,7 @@ const CTA = () => {
           
           <p className="text-lg text-muted-foreground mb-10">
             Join thousands of traders who are already using our bot to automate their IQ Option trades. 
-            Start your 7-day trial today with our money-back guarantee.
+           Get free signals on our bot.
           </p>
           
           <motion.div
@@ -35,17 +35,24 @@ const CTA = () => {
             transition={{ delay: 0.2 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button variant="gold" size="xl">
-              Start Free Trial
-              <ArrowRight className="w-5 h-5" />
-            </Button>
+            <a
+  href="https://t.me/Iq_trading_signal_bot"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="gold" size="xl">
+    Get Free Signal
+    <ArrowRight className="w-5 h-5" />
+  </Button>
+</a>
+
             <Button variant="goldOutline" size="xl">
-              Contact Sales
+              Contact Team
             </Button>
           </motion.div>
           
           <p className="text-sm text-muted-foreground mt-6">
-            No credit card required • 7-day money-back guarantee
+            No credit card required •
           </p>
         </motion.div>
       </div>
